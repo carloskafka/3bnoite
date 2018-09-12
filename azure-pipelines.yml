@@ -19,5 +19,5 @@ steps:
     goals: 'package'
 - script: |
     echo Starting the build
-    java -jar /home/vsts/work/1/s/target/java-getting-started-1.0.jar
+    java -jar /home/vsts/work/1/s/javaWebPrimeFaces/target/blue-leme-1.0.0.war
   displayName: 'Build with Maven'
